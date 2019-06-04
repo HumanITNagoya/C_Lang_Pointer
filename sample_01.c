@@ -8,7 +8,6 @@ int main()
     /* ポインタの宣言 */
     char *pt;
     pt = ex;
-    /* 上の文は pt=&ex[0]; でもOK */
 
     /* 文字の出力 */
     printf( "2文字目は%c\n" , *(pt+1) );
